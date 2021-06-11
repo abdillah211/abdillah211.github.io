@@ -1,0 +1,35 @@
+body {background-color: #D3D3D3;
+}
+h2 { color: black;
+	 text-align: center;
+	 margin: 25px 25px 25px 25px;
+	 border-style: ridge;
+	 padding-bottom: 10px;
+	 padding-left: 10px;
+	 padding-right: 10px;
+	 padding-top: 10px;
+}
+h3 { text-align: center;
+	 text-decoration: underline;
+}
+p { text-align: justify;
+	color: black;
+	background-color: dark-gray;
+	margin: 25px 25px 25px 25px;
+	padding-top: 5px;
+	padding-right: 30px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+}
+tr { font-size: 20px;
+	 color: #0000A0;
+}
+table { border-color: gray;
+		border-width: 2px;
+		border-style: dashed;
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-bottom: 5px;
+		padding-top: 5px;
+		background-color:
+}
