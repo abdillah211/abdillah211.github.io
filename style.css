@@ -23,6 +23,8 @@ nav h1 {
 .nav-links{
 	flex: 1;
 	text-align: right;
+	display: inline-block;
+	position: flex;
 }
 .nav-links ul li {
 	list-style: none;
@@ -45,7 +47,6 @@ nav h1 {
 }
 .nav-links ul li:hover::after{
 	width: 100%
-}
 }
 body {background-color: #D3D3D3;
 
@@ -94,6 +95,34 @@ table { border-color: gray;
 }	
 image { padding-top: 10px;
 }
-
-
+.container {margin-left: 75px;
+}
+.medsos{
+    padding:5px 0;
+    background-color: black;
+	opacity: 0;
+}
+.medsos ul li {
+    display: inline-block;
+    color: green;
+	opacity: 0;
+    margin-right: 10px;
+}
+.container {
+    width: 80%;
+    margin:0 auto;
+}
+.container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.footer{
+    min-height: 20vh;
+	width: 100%;
+    background-image: url("bg3.jpg");
+	background-position: center;
+    color: white;
+    text-align: center;
+}
 	
